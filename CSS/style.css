@@ -1,7 +1,9 @@
 header {
 background-color: black;
 color: white;
+
 }
-img {
+.logo {
     width: 100px;
 }
+
