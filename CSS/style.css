@@ -19,6 +19,9 @@ z-index: 100;
 .logo-menu{
     width: 25px;
 }
+.menu-nav {
+    display: none;
+}
 .section-1{
     border: solid 3px red;
     background-color: #529cf1;
