@@ -22,19 +22,22 @@ z-index: 100;
 .menu-nav {
     display: none;
 }
-.section-1{
+.hero{
     border: solid 3px red;
     background-color: #529cf1;
     color: white;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 15px;
 
     
 }
 h1{
     font-size: 40px;
     font-weight: bold;
+    padding-top: 100px;
 }
 
 .button-planes {
@@ -45,11 +48,12 @@ h1{
     text-align: center;
     border-radius: 20px;  
     text-decoration: none;
+    font-weight: 500;
     
 }
 
 .parrafo1 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 600;
 }
 
@@ -59,9 +63,10 @@ h1{
 
 .section-2{
     border: solid 3px red;
+}
+.services {
     display: flex;
-    flex-direction: column;
-    font-weight: bolder;
+    flex-wrap: wrap;
 }
 
 .titulo-section2{
