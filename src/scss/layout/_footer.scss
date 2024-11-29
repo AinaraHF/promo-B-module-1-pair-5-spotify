@@ -1,8 +1,11 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer{
+  border: solid 3px red;
+  background-color: black;
+  color: white;
+  display: flex;  
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
 }

@@ -4,7 +4,7 @@
 @import 'components/links';
 @import 'layout/page';
 @import 'layout/header';
-@import 'layout/footer';
+;
 @import 'pages/index';*/
 
 body {
@@ -106,8 +106,5 @@ h1{
     font-size: 20px;
     font-weight: 700;
 }
-.footer{
-    border: solid 3px red;
-    background-color: black;
-    color: white;
-}
+
+@import 'layout/footer'
