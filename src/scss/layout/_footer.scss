@@ -3,9 +3,32 @@
   background-color: black;
   color: white;
   display: flex;  
+  justify-content: space-around;
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 nav a {
   color: white;
   text-decoration: none;
+}
+
+.idiomas{
+  display: flex;
+  justify-content:flex-end;
+  flex-direction: column;
+    & a{
+      color: white;
+      text-decoration: none;
+    }
+    .flag{
+      width: 30px;
+      margin-left: 10px;
+    }
+}
+.legal{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
 }

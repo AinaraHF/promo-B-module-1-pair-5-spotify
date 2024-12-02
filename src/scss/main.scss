@@ -7,30 +7,11 @@
 ;
 @import 'pages/index';*/
 
+@import 'layout/header';
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-header {
-background-color: black;
-color: white;
-display: flex;
-justify-content: space-between;
-padding: 10px;
-position: sticky;
-top: 0;
-left: 0;
-z-index: 100;
-}
-.logo {
-    width: 100px;
-}
-.logo-menu{
-    width: 25px;
-}
-.menu-nav {
-    display: none;
-}
 .hero{
     border: solid 3px red;
     background-color: #529cf1;
@@ -38,7 +19,6 @@ z-index: 100;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 20px;
     padding-bottom: 25px;
     padding-left: 15px;
     padding-right: 15px;
@@ -48,7 +28,7 @@ z-index: 100;
 h1{
     font-size: 40px;
     font-weight: bold;
-    padding-top: 150px;
+    padding-top: 100px;
 }
 
 .button-planes {
@@ -93,13 +73,15 @@ h1{
 .article{
     border: solid 3px red;
     display: flex;
+    align-items: center;
     width: 100%;
     gap: 10px;
-    
+    padding: 5px;
 }
 
 .img-articulo {
-    width: 75px;
+    width: 70px;
+    height: 70px;
 }
 
 .titulo-articulo {
